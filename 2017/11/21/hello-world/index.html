@@ -102,11 +102,6 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/style.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
-            
-                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify/vibrant-ink.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-            
-        
 
     
 
@@ -264,6 +259,41 @@
 
     <!-- Structured-data for SEO -->
     
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://congtsang.com/2017/11/21/hello-world/index.html",
+    "headline": "Hello World",
+    "datePublished": "Tue Nov 21 2017 20:51:40 GMT+0800",
+    "dateModified": "Tue Nov 21 2017 20:51:40 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "CongTsang",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": "爱狂笑的孩子运气不会差"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "CongTsang丨Inn",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.ico"
+        }
+    },
+    "keywords": "CongTsang, 爱狂笑, 中二病, 萌",
+    "description": "",
+}
+</script>
+
+
+    
 
     <!-- Analytics -->
     
@@ -388,6 +418,18 @@
     -->
 
     <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://congtsang.com/2017/11/21/hello-world/">
+    
+</ul>
+
     
 
     <!-- Tags (bookmark) -->
@@ -622,30 +664,6 @@
     <!-- Pages  -->
     
         <li>
-            <a href="http://congtsang.com/about" title="关于">
-                
-                    <i class="material-icons sidebar-material-icons">person</i>
-                
-                关于
-            </a>
-        </li>
-        
-            <li class="divider"></li>
-        
-    
-        <li>
-            <a href="http://congtsang.com/links" title="友链">
-                
-                    <i class="material-icons sidebar-material-icons">person</i>
-                
-                友链
-            </a>
-        </li>
-        
-            <li class="divider"></li>
-        
-    
-        <li>
             <a href="http://congtsang.com/tags" title="标签">
                 
                     <i class="material-icons sidebar-material-icons">person</i>
@@ -654,8 +672,6 @@
             </a>
         </li>
         
-            <li class="divider"></li>
-        
     
         <li>
             <a href="http://congtsang.com/timeline" title="时间线">
@@ -663,6 +679,28 @@
                     <i class="material-icons sidebar-material-icons">person</i>
                 
                 时间线
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="http://congtsang.com/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="http://congtsang.com/links" title="友链">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                友链
             </a>
         </li>
         
@@ -827,7 +865,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>CongTsang丨Inn
+            Copyright&nbsp;©&nbsp;2016&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>CongTsang丨Inn
             
                 <br>
                 
@@ -917,12 +955,10 @@ It will not impact the appearance and can give developers a lot of support :)
 
 <!-- Import prettify js  -->
 
-    
-        
-            <script>lsloader.load("prettify_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/prettify.min.js", true)</script>
-        
-    
 
+    
+        <script>lsloader.load("hanabi","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/hanabi-browser-bundle.js", true)</script>
+    
 
 
 <!-- Window Load -->
@@ -934,13 +970,10 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
-        
-            $(function() {
-                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
-                prettyPrint();
-                })
-        
     
+        
+        
+        HanabiBrowser.start('pre code',true);
     
 </script>
 
