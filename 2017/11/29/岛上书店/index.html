@@ -41,7 +41,7 @@
     
     <title>
         
-            Hello World | 
+            岛上书店 | 
         
         CongTsang丨Inn
     </title>
@@ -53,7 +53,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="CongTsang">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="CongTsang, 爱狂笑, 中二病, 萌">
+    <meta name="keywords" content="CongTsang, 爱狂笑, 中二病, 萌,灵性">
 
     <!-- Import lsloader -->
     <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(window.oldVersion){var remove=window.oldVersion.reduce(function(p,c){return p||data.indexOf("/*"+c+"*/")!==-1},false);if(remove){lsloader.removeLS(key)}}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload,isJs){if(typeof cssonload==="boolean"){isJs=cssonload;cssonload=undefined}isJs=isJs||false;cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload,isJs);return}code=code.split(versionString)[1];if(isJs){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload,isJs)}};lsloader.requestResource=function(name,path,cssonload,isJs){var that=this;if(isJs){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else{this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
@@ -230,18 +230,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://congtsang.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello World | CongTsang丨Inn">
+    <meta property="og:title" content="岛上书店 | CongTsang丨Inn">
     <meta property="og:image" content="http://congtsang.com/img/favicon.ico" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="灵性"> 
 
     
-        <meta property="article:published_time" content="Tue Nov 21 2017 20:51:40 GMT+0800" />
-        <meta property="article:modified_time" content="Fri Nov 24 2017 20:40:23 GMT+0800" />
+        <meta property="article:published_time" content="Wed Nov 29 2017 12:26:35 GMT+0800" />
+        <meta property="article:modified_time" content="Fri Dec 01 2017 13:21:44 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Hello World | CongTsang丨Inn">
+    <meta name="twitter:title" content="岛上书店 | CongTsang丨Inn">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://congtsang.com/img/favicon.ico">
     <meta name="twitter:card" content="summary_large_image" />
@@ -249,7 +249,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://congtsang.com/2017/11/21/hello-world/index.html" />
+        <link rel="canonical" href="http://congtsang.com/2017/11/29/岛上书店/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -261,10 +261,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://congtsang.com/2017/11/21/hello-world/index.html",
-    "headline": "Hello World",
-    "datePublished": "Tue Nov 21 2017 20:51:40 GMT+0800",
-    "dateModified": "Fri Nov 24 2017 20:40:23 GMT+0800",
+    "mainEntityOfPage": "http://congtsang.com/2017/11/29/岛上书店/index.html",
+    "headline": "岛上书店",
+    "datePublished": "Wed Nov 29 2017 12:26:35 GMT+0800",
+    "dateModified": "Fri Dec 01 2017 13:21:44 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "CongTsang",
@@ -282,7 +282,7 @@
             "url": "/img/favicon.ico"
         }
     },
-    "keywords": "CongTsang, 爱狂笑, 中二病, 萌",
+    "keywords": ",灵性CongTsang, 爱狂笑, 中二病, 萌",
     "description": "",
 }
 </script>
@@ -348,7 +348,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#undefined"><span class="post-toc-text">没有谁是一座孤岛</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#介绍"><span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#简介"><span class="post-toc-text">简介</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#作者"><span class="post-toc-text">作者</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#目录"><span class="post-toc-text">目录</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#骨骼"><span class="post-toc-text">骨骼</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#灵魂"><span class="post-toc-text">灵魂</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -368,10 +368,10 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511537292269&di=e434b251f04d20e457d19a47a6914543&imgtype=0&src=http%3A%2F%2Fi1.acgimage.com%2F541950%2F9e50047db5b0811d.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://img.zcool.cn/community/0127cf5742c23432f8759a3e7eba9a.jpg@2o.jpg)">
     
             <p class="article-headline-p">
-                Hello World
+                岛上书店
             </p>
         </div>
 
@@ -390,7 +390,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>CongTsang</strong>
-        <span>11月 21, 2017</span>
+        <span>11月 29, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -412,13 +412,22 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://congtsang.com/2017/11/21/hello-world/">
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://congtsang.com/2017/11/29/岛上书店/">
     
 </ul>
 
     
 
     <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/灵性/">灵性</a>
+    </ul>
     
 
     <!-- Share -->
@@ -433,7 +442,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello World&url=http://congtsang.com/2017/11/21/hello-world/index.html&pic=http://congtsang.com/img/favicon.ico&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=岛上书店&url=http://congtsang.com/2017/11/29/岛上书店/index.html&pic=http://congtsang.com/img/favicon.ico&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -442,7 +451,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello World&url=http://congtsang.com/2017/11/21/hello-world/index.html&via=CongTsang" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=岛上书店&url=http://congtsang.com/2017/11/29/岛上书店/index.html&via=CongTsang" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -451,7 +460,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://congtsang.com/2017/11/21/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://congtsang.com/2017/11/29/岛上书店/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -466,7 +475,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=CongTsang丨Inn&title=Hello World&summary=&pics=http://congtsang.com/img/favicon.ico&url=http://congtsang.com/2017/11/21/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=CongTsang丨Inn&title=岛上书店&summary=&pics=http://congtsang.com/img/favicon.ico&url=http://congtsang.com/2017/11/29/岛上书店/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -484,19 +493,29 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 style="text-align:center">没有谁是一座孤岛</h1>
+
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
+<p>《岛上书店》是2015年江苏凤凰文艺出版社出版图书，作者（美）加布瑞埃拉·泽文。这是一本关于全世界所有书的书，写给全世界所有真正爱书的人。<br>《岛上书店》是一本现象级全球畅销书。2014年4月1日，《岛上书店》精装版在美国上市，立刻以一路破纪录的姿态，成为了2014年的全球出版界黑马。短短一年内风行畅销美、英、德、意大等30国，创下了出版史上全球化最快的畅销纪录。<br>————内容摘自《<a href="https://baike.baidu.com/item/%E5%B2%9B%E4%B8%8A%E4%B9%A6%E5%BA%97/17299603?fr=aladdin" target="_blank" rel="noopener">百度百科</a>》</p>
+</blockquote>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>岛上书店是间维多利亚风格的小屋，门廊上挂着褪色的招牌，上面写着：<strong>没有谁是一座孤岛，每本书都是一个世界。</strong><br>A．J．费克里，人近中年，在一座与世隔绝的小岛上，经营一家书店。<br>命运从未眷顾过他，爱妻去世，书店危机，就连唯一值钱的宝贝也遭窃。他的人生陷入僵局，他的内心沦为荒岛。<br>就在此时，一个神秘的婴儿出现在书店中，意外地拯救了陷于孤独绝境中的A．J．，成为了连接他和小姨子伊斯梅、警长兰比亚斯、出版社女业务员阿米莉娅之间的纽带，为他的生活带来了转机。<br>小岛上的几个生命紧紧相依，走出了人生的困境，而所有对书和生活的热爱都周而复始，愈加汹涌。</p>
+<h2 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h2><p>加布瑞埃拉·泽文(Gabrielle Zevin，1977—)<br>美国作家、电影剧本编剧。年轻并极富魅力，深爱阅读与创作，为《纽约时报书评》撰稿，现居洛杉矶。<br>毕业于哈佛大学英美文学系，已经出版了八本小说，作品被翻译成二十多种语言。14岁时，她写了一封关于“枪与玫瑰乐团”的信函投给当地报社，措辞激烈，意外获得该报的乐评人一职，迈出了成为作家的第一步。一直以来，她对书、书店以及爱书人的未来，充满见解。她的第八本小说《岛上书店》在2014年以史无前例的最高票数，获选美国独立书商选书第一名。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>第一部<br>《待宰的羔羊》 / 3<br>《像里兹饭店那样大的钻石》 / 27<br>《咆哮营的幸运儿》 / 41<br>《世界的感觉》 / 81<br>《好人难寻》 / 89<br>《卡拉维拉县驰名的跳蛙》 / 135<br>《穿夏裙的女孩》 / 167<br>第二部<br>《与父亲的对话》 / 183<br>《逮香蕉鱼的最佳日子》 / 197<br>《泄密的心》 / 209<br>《铁头》 / 223<br>《当我们谈论爱情时我们在谈论什么》 / 249<br>《书店老板》 / 257</p>
+<h2 id="骨骼"><a href="#骨骼" class="headerlink" title="骨骼"></a>骨骼</h2><blockquote>
+<p>来吧，亲爱的，<br>且让我们来相爱，<br>趁你我<br>尚在人世<br>——<a href="https://baike.baidu.com/item/%E9%B2%81%E7%B1%B3/2018310?fr=aladdin" target="_blank" rel="noopener">鲁米</a></p>
+</blockquote>
+<pre><code>文章内容有些许摘自《知乎》  — —如何评价小说《岛上书店》
+</code></pre><p>&emsp;&emsp;当初买这本书是在双十一逛某宝的时候看到的，因为没啥想买的，又不想白白浪费这个打折狂欢的机会对吧。虽然只减了一块钱，但还是挺赚的嘛，一块钱等于不要钱，免费就买了。<br>&emsp;&emsp;说实话，这本书给我的感觉就是很温情、正能量、温馨，人在绝境边缘，接近崩坏的时候，独自在人生的一个小岛上，与外界没有任何联系，这时候一个转折点（也就是<strong>玛雅</strong>（弃婴），或者说是<strong>书</strong>），建立起了与外界的沟通，人与人之间无声的爱、关心、思念、牵挂等种种情感也就跃然纸上（反正表达一种有灵性的感觉，我懂就好）。就像荒芜的沙漠在情感的甘露下转瞬之间成了葱郁的绿洲。人重新有了希望，<strong>为了一个人或者一些人而活下去，这或许就是人生吧。</strong><br>&emsp;&emsp;这本书可以说是<strong>小说中的小说</strong>，为什么这么说呢，他的每一个章节标题都是一本书名的引用，是A·J·Fikry（男主）给玛雅推荐的书，其后的书评包含了A·J·Fikry对玛雅的希望与寄托，字字入心（好吧，我承认这个词是我编的）。这种写作方法还是挺新颖的说实话，这也跟小说的构造有关，因为两岁零一个月大的玛雅是走入绝望的女人留给他的唯一珍贵遗物吧，并希望他能把他培养成一个爱读书，让她在一个有书本的地方长大。因此作为岛上唯一一座书店的老板A·J·F承担了这个任务，也打开了A·J·F的心扉，他的人生也开始有了新目标。<br>&emsp;&emsp;A·J·F（男主）是除了自己之外极度自私的人，对世界的付出的前提是自己先获得爱。而他却在抚养玛雅的过程中，逐渐打开了自己心扉，并且在面对和阿米莉亚的感情时，选择了主动去爱（尽管追求对方的手法十分笨拙又呆萌）。<br>&emsp;&emsp;阿米莉娅（女主）是本书的恋爱观的传递者。恋爱的偏执狂，约了很多次会，但是最终没相中一个。可能和生活中很多看起来谈过很多恋爱的人一样，他们并不是不看重爱情，而是太看重爱情，所以才选择了残忍的淘汰制。她要找的是一个真正理解她，能够与她产生精神共鸣的知心人。阿米莉娅经历了爱情的多次失败后，遇见A·J·F就觉得他很符合。阿米莉娅的爱是成熟的，她包容A·J·F内心里的孩子气，没有揭穿他的自以为是还有傲慢好辩。所以呢，得出一条：<strong>真正的爱情就不是两个完美的人互相欣赏，而是我已经知道你不完美，可是我依然爱你。</strong><br>&emsp;&emsp;伊斯梅：中学教师，A·J·F亡妻的姐姐。喜欢表面光鲜的人，思想比较浅薄，前半部最悲惨的角色，丈夫出轨爱偷情，自己流产了七次，偷走《帖木儿》（一本埃德加·爱伦·坡的诗集，价值不菲）来打发丈夫出轨对象玛雅的母亲，目睹A·J·F再婚受到打击与丈夫在车上争执导致车祸丈夫去世，与追查《帖木儿》下落的小岛警官结合，后归还《帖木儿》拯救或者说延长了A·J·F心灵里的生命。<br>&emsp;&emsp;以上只列出了部分的关键人物，因为博主学识浅薄，只能通过借鉴别人的表达来传递我自己的真实感受。具体的内容还请屏幕前的读者仔细品味原著，毕竟任何的解释都没有原著作来的真切，这里也还是说说我自己的想法与感动。<br>&emsp;&emsp;虽然文章以A·J·F的脑癌病死结尾，但他却获得了重生和救赎。一个从亡妻，珍藏的《帖木儿》的失去，厌世，孤独，通过玛雅和书的救赎，转而变成为了慈父，温情，热爱生活，积极的A·J·F。在结尾的书评中他对玛雅的寄托是<strong>跟人沟通，我亲爱的小书呆子，只有沟通。</strong>这也是A·J·F告诉我们的东西，唯有沟通才能建立起与外界的桥梁，才会有爱，有故事。<br>&emsp;&emsp;唯有爱，可以拯救自己！唯书与爱，不可辜负！<br>&emsp;&emsp;作者言：一个人无法自成孤岛 ，要么至少 ，一个人无法自成最理想的孤岛 。<br>&emsp;&emsp;作者写这本书的愿望是让我们读书，细细品味其中的乐趣与感情，并且多与灵魂沟通。每本书，是一个世界；而每个人，都是一本书。</p>
+<h2 id="灵魂"><a href="#灵魂" class="headerlink" title="灵魂"></a>灵魂</h2><blockquote>
+<p>一个人无法自成孤岛，那么至少，一个人无法自成最理想的孤岛。</p>
+<p>因为从心底害怕自己不值得被爱 ，我们独来独往 ， 然而就是因为独来独往 ，才让我们以为自己不值得被爱 。有一天 ，你不知道是什么时候 ，你会驱车上路 。有一天 ，你不知道是什么时候 ，你会遇到他 （她 ） 。你会被爱 ，因为你今生第一次真正不再孤单 。你会选择不再孤单下去 。 ”</p>
+<p>我懂你的意思。他们看来不是闭着眼结婚的。A.J知道阿米莉亚不是十全十美，阿米莉亚也知道AJ不是十全十美，他们知道世界上没有十全十美这种事。</p>
+<p>独自生活的难处，在于不管弄出什么样的烂摊子，都不得不自己清理。不，独自生活的真正难处在于没人在乎你是否心烦意乱。</p>
+<p>关于政治、上帝和爱，人们都讲些无聊的谎话。想要了解一个人，你只需要问一个问题:“你最喜欢哪本书？”</p>
+<p>她吻遍他那个有毛病的脑袋上的每个地方。 “我以前喜欢这个头脑，我现在也喜欢这个头脑！这是个非常好的头脑。” “我也喜欢。”他说。 护工来把他推走。 “我爱你。”她听天由命地耸耸肩， “我想留给你什么更聪明的话，但是我只知道那一句。”</p>
+<p>长得漂亮不是追求人的好理由。</p>
+<p>“我们不是我们所收集的、得到的、所读的东西，只要我们还活着，我们就是爱，我们所爱的事物，我们所爱的人。所有这些，我认为真的会存活下去。”</p>
+</blockquote>
 
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
@@ -505,7 +524,7 @@
                             我对死亡感到唯一的痛苦是没能为爱而死
                         </strong>
                         <br>
-                        <strong>本文链接：</strong><a href="http://congtsang.com/2017/11/21/hello-world/">http://congtsang.com/2017/11/21/hello-world/</a>
+                        <strong>本文链接：</strong><a href="http://congtsang.com/2017/11/29/岛上书店/">http://congtsang.com/2017/11/29/岛上书店/</a>
                     </p>
                 </blockquote>
         
@@ -527,19 +546,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/11/23/tests/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/11/23/tests/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
