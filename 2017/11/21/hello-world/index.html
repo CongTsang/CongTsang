@@ -23,6 +23,8 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source"/>
 
 
+    <link rel="dns-prefetch" href="https://cdn1.lncld.net"/>
+
 
 
 
@@ -520,6 +522,19 @@
                 <!-- Post Comments -->
                 
                     
+    <div id="comment" class="comment"></div>
+<script>
+    window.onload = function() {
+        new Valine({
+            av: AV, // source from av-min.js
+            el: '.comment',
+            app_id: "5vV33L0HXsTxM6eMqXoNmoUj-gzGzoHsz",
+            app_key: "7UJciGWv3fPL0OsLxh86UVQr",
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+        });
+    }
+</script>
+
                 
             </div>
 
@@ -929,6 +944,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/valine@1.1.1/dist/Valine.min.js"></script>
 
 
 
