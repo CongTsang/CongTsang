@@ -623,11 +623,11 @@ drwxr-xr-x 2 congtsang congtsang 4.0K 1月   5 12:34 Videos
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <script>
     var GUEST_INFO = ['nick','mail','link'];
-    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+    var guest_info = '名字被我吃了,邮箱不见了,你的主页也被我吞了'.split(',').filter(function(item){
         return GUEST_INFO.indexOf(item) > -1
     });
     var notify = 'false' == true;
-    var verify = 'false' == true;
+    var verify = 'true' == true;
     new Valine({
         el: '.vcomment',
         notify: notify,
@@ -636,7 +636,7 @@ drwxr-xr-x 2 congtsang congtsang 4.0K 1月   5 12:34 Videos
         appKey: "7UJciGWv3fPL0OsLxh86UVQr",
         placeholder: "来呀快活啊",
         pageSize:'10',
-        avatar:'identicon',
+        avatar:'wavatar',
         lang:'zh-cn'
     });
 </script>
