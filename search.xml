@@ -3,6 +3,38 @@
   
     
     <entry>
+      <title><![CDATA[Material Comment System]]></title>
+      <url>/2018/01/14/Comment/</url>
+      <content type="html"><![CDATA[<h2 style="text-align:center">如何装逼才能把别人哄的一愣一愣的</h2>
+
+<h3 id="出场方式"><a href="#出场方式" class="headerlink" title="#出场方式"></a>#出场方式</h3><p>&emsp;&emsp;首先是我的色友<a href="https://taifua.com/" target="_blank" rel="noopener">@太傅</a>小朋友强烈要求并且对我使用淫威之术，让我在我的文章下面添加评论系统，奈何不了他的强势，那我就勉为其难的添加一个吧，哎~所以说有个优（la）秀（ji）的色友是多么的好！<br>&emsp;&emsp;我一开始不知道是用哪个评论系统好，所以想要征求一下他的意见，为啥要用征求呢？没办法他太优（la）秀（ji）了，向优（la）秀（ji）的大学生低头。然后他用的是<a href="https://valine.js.org/#/" target="_blank" rel="noopener">valine</a>这个系统（Valine 是一款基于LeanCloud的快速、简洁且高效的无后端评论系统。）为了满足他<strong>生理上</strong>以及<strong>心理上</strong>的需求，我<strong>一夜7次</strong>的加班加点干活！！</p>
+<h3 id="装逼步骤"><a href="#装逼步骤" class="headerlink" title="#装逼步骤"></a>#装逼步骤</h3><p>&emsp;&emsp;一开始我都不知道怎么弄这个系统，看了那个文档也没什么用，加了一大群东西还是没用。<br>例如这样：</p>
+<center><img src="http://p02zvk8jf.bkt.clouddn.com/invalid.png" alt="无效修改"></center><br>&emsp;&emsp;<code>hexo clean</code>、<code>hexo g</code>和<code>hexo d</code>之后还是没有任何效用，很无奈，他说他都看了半天才弄懂，哎，当时觉得就不想弄了，文档上面还一大堆教程，都没用。感觉天昏地暗，不管了，我先睡觉了。喂！你说好的一夜7次加班加点干活的呢？  “什么？这你都信！别这么想不开啊。”<br>&emsp;&emsp;然后我去升级了一下我这个Material的主题后，版本为1.5.2了，以前多少来着我也不记得了，反正我旧版本也有一个valine的选项，不知什么原因就GG了，还让我搞了大半天还弄不好，心累啊。<br>&emsp;&emsp;升级后，我发现评论系统多了一些可选项，觉得有戏，然后又添了一遍。升级文件里是没有配置文件<strong>_config.yml</strong>的，只有一个模板配置文件<strong>_config.template.yml</strong>,我通过这个模板文件把一些配置复制到配置文件里，实现了无缝升级，然后奇迹般地他有用了！！！，哇，赶紧向色友炫耀一波，hhhhh~~~顺便自己抢一抢沙发把。<br>例如这样：<br><center><img src="http://p02zvk8jf.bkt.clouddn.com/valid.png" alt="有效修改"></center><br><center><img src="http://p02zvk8jf.bkt.clouddn.com/valid1.png" alt="有效修改"></center>
+
+<hr>
+<center><strong>没用的话，强调三遍：升级你的主题！升级你的主题！升级你的主题！</strong></center>
+
+<hr>
+<h4 id="关于key和id"><a href="#关于key和id" class="headerlink" title="@关于key和id"></a>@关于key和id</h4><p>&emsp;&emsp;先去<a href="https://leancloud.cn/" target="_blank" rel="noopener">LeanCloud</a>注册一个账号，然后创建一个<strong>应用</strong>，默认就好了，然后进入应用的设置里，如下面这张萌萌的图</p>
+<p><center><img src="http://p02zvk8jf.bkt.clouddn.com/leancloud_key.png" alt="leancloud"></center><br>&emsp;&emsp;把App ID和App Key复制一下，填入主题配置文件_config.yml里的相关valine选项的关键字id和key。其他的配置选项看你们自己个个性化吧。<br>&emsp;&emsp;我这个教程差不多就这样子了，更多的问题欢迎在下面留言哦，我回不回复看我的心情。就是这样，嘻嘻~</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Learning </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[白夜行]]></title>
       <url>/2018/01/12/%E7%99%BD%E5%A4%9C%E8%A1%8C/</url>
       <content type="html"><![CDATA[<h2 style="text-align:center">世上有两样东西不可直视，一是太阳，二是人心。</h2>
