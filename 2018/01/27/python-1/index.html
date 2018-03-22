@@ -238,7 +238,7 @@
 
     
         <meta property="article:published_time" content="Sat Jan 27 2018 10:25:01 GMT+0800">
-        <meta property="article:modified_time" content="Wed Feb 07 2018 21:18:15 GMT+0800">
+        <meta property="article:modified_time" content="Thu Mar 22 2018 16:51:44 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -261,7 +261,7 @@
     "mainEntityOfPage": "http://congtsang.com/2018/01/27/python-1/index.html",
     "headline": "pythonの旅",
     "datePublished": "Sat Jan 27 2018 10:25:01 GMT+0800",
-    "dateModified": "Wed Feb 07 2018 21:18:15 GMT+0800",
+    "dateModified": "Thu Mar 22 2018 16:51:44 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "CongTsang",
@@ -378,7 +378,7 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://p02zvk8jf.bkt.clouddn.com/pythonBG.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://congtsang-1253786822.cos.ap-hongkong.myqcloud.com/CongTsang/pythonBG.jpg)">
     
             <p class="article-headline-p">
                 pythonの旅
@@ -520,7 +520,7 @@
 <h3 id="前世今生"><a href="#前世今生" class="headerlink" title="# 前世今生"></a># 前世今生</h3><p>&emsp;&emsp;Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/）, 是一种面向对象的解释型计算机程序设计语言，由荷兰人<a href="https://baike.baidu.com/item/Guido%20van%20Rossum" target="_blank" rel="noopener">吉多·范罗苏姆（Guido van Rossum）</a>于1989年发明，第一个公开发行版发行于1991年。<br>&emsp;&emsp;作为一种<strong>解释型语言</strong>，Python的设计哲学强调代码的可读性和简洁的语法（尤其是使用空格缩进(white space)划分代码块，而非使用大括号或者关键词）。相比于 C++ 或 Java，Python 让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。<br>&emsp;&emsp;Python是纯粹的自由软件， 源代码和解释器CPython遵循 GPL(GNU General Public License)协议。<br>&emsp;&emsp;Python具有丰富和强大的库。它常被昵称为<strong>胶水语言</strong>，能够把用其他语言制作的各种模块（尤其是C/C++）很轻松地联结在一起。常见的一种应用情形是，使用Python快速生成程序的原型（有时甚至是程序的最终界面），然后对其中有特别要求的部分，用更合适的语言改写，比如3D游戏中的图形渲染模块，性能要求特别高，就可以用C/C++重写，而后封装为Python可以调用的扩展类库。需要注意的是在您使用扩展类库时可能需要考虑平台问题，某些可能不提供跨平台的实现。</p>
 <hr>
 <p>&emsp;&emsp;1989年的圣诞节期间，吉多·范罗苏姆为了在阿姆斯特丹打发时间，决心开发一个新的脚本解释程序，作为ABC语言的一种继承。之所以选中Python作为程序的名字，是因为他是BBC电视剧——蒙提·派森的飞行马戏团的爱好者。ABC是由吉多参加设计的一种教学语言。就吉多本人看来，ABC这种语言非常优美和强大，是专门为非专业程序员设计的。但是ABC语言并没有成功，究其原因，吉多认为是非开放造成的。吉多决心在Python中避免这一错误，并获取了非常好的效果，完美结合了C和其他一些语言，并且结合了Unix shell和C的习惯。<br>&emsp;&emsp;Python开发者有意让违反了缩进规则的程序不能通过编译，以此来强制程序员养成良好的编程习惯。并且Python语言利用缩进表示语句块的开始和退出（Off-side规则），而非使用花括号<code>{}</code>或者某种关键字。增加缩进表示语句块的开始，而减少缩进则表示语句块的退出。缩进成为了语法的一部分。</p>
-<center><img src="http://p02zvk8jf.bkt.clouddn.com/pythonBG2.jpg" alt="python"></center>
+<center><img src="https://congtsang-1253786822.cos.ap-hongkong.myqcloud.com/CongTsang/pythonBG2.jpg" alt="python"></center>
 
 <h3 id="应用领域"><a href="#应用领域" class="headerlink" title="# 应用领域"></a># 应用领域</h3><p>&emsp;&emsp;作为一门语言，自然有他应用的领域，接下来我们就来讨论一下python可以用于哪些高大上的领域。</p>
 <h4 id="Web-程序"><a href="#Web-程序" class="headerlink" title="@ Web 程序"></a>@ Web 程序</h4><p>&emsp;&emsp;Python经常被用于Web开发。比如，通过mod_wsgi模块，Apache可以运行用Python编写的Web程序。使用Python语言编写的Gunicorn作为Web服务器，也能够运行Python语言编写的Web程序。Python定义了WSGI标准应用接口来协调Http服务器与基于Python的Web程序之间的沟通。一些Web框架，如Django、Pyramid、TurboGears、Tornado、web2py、Zope、Flask等，可以让程序员轻松地开发和管理复杂的Web程序。<br>&emsp;&emsp;Python对于各种网络协议的支持很完善，因此经常被用于<strong>编写服务器软件</strong>、<strong>网络爬虫</strong>。第三方库Twisted支持异步在线编写程序和多数标准的网络协议（包含客户端和服务器），并且提供了多种工具，被广泛用于编写高性能的服务器软件。另有gevent这个流行的第三方库，同样能够支持高性能高并发的网络开发。</p>
@@ -593,7 +593,7 @@
 </tr>
 </tbody>
 </table>
-<p>栗子：<br><img src="http://p02zvk8jf.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%B5%8B%E8%AF%95.png" alt="数据类型测试"></p>
+<p>栗子：<br><img src="https://congtsang-1253786822.cos.ap-hongkong.myqcloud.com/CongTsang/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%B5%8B%E8%AF%95.png" alt="数据类型测试"></p>
 <h4 id="语句和控制流"><a href="#语句和控制流" class="headerlink" title="@ 语句和控制流"></a>@ 语句和控制流</h4><ul>
 <li><code>if</code>语句，当条件成立时运行语句块。经常与<code>else</code>, <code>elif</code>（相当于<code>else if</code>）配合使用。</li>
 <li><code>for</code>语句，遍列列表、字符串、字典、集合等迭代器，依次处理迭代器中的每个元素。</li>
@@ -808,7 +808,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -826,7 +826,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/Learning/">Learning<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/灵魂读者/">灵魂读者<span class="sidebar_archives-count">4</span></a>
+                <a class="sidebar_archives-link" href="/categories/Learning/">Learning<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/灵魂读者/">灵魂读者<span class="sidebar_archives-count">4</span></a>
             </ul>
         </li>
         
@@ -882,7 +882,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">11</span>
+                <span class="sidebar-badge">12</span>
             </a>
         </li>
         
