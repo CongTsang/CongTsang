@@ -490,12 +490,68 @@
             
         
     
-
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
-    <!-- Index nav -->
-        <nav class="material-nav mdl-cell mdl-cell--12-col">
-            <span class="page-number current">1</span><a class="page-number" href="/categories/灵魂读者/page/2/">2</a><a class="extend next" rel="next" href="/categories/灵魂读者/page/2/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_forward</i></button></a>
-        </nav>
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://congtsang-1253786822.cos.ap-hongkong.myqcloud.com/CongTsang/%E5%B2%9B%E4%B8%8A%E4%B9%A6%E5%BA%97.jpg">
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/11/29/岛上书店/">岛上书店</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            没有谁是一座孤岛
+
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/11/29/岛上书店/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="https://congtsang-1253786822.cos.ap-hongkong.myqcloud.com/CongTsang/avatar.jpg" width="44px" height="44px" alt="CongTsang's avatar">
+            </div>
+            <div>
+                <strong>CongTsang</strong>
+                <span>11月 29, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+          
+              <!-- Category -->
+              <span class="post_entry-category">
+                  <a class="post_category-link" href="/categories/灵魂读者/">灵魂读者</a>
+              </span>
+            
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
     
 
     
@@ -503,7 +559,7 @@
     var randomNum;
 
     var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 3; i++) {
+    for(var i = 0; i < 10; i++) {
         randomNum = Math.floor(Math.random() * 6 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
